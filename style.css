@@ -1,0 +1,118 @@
+*,*::after,**::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.container{
+    line-height: 10px;
+    padding-left: 30px;
+}
+.Firstsec{
+    background: url(/images/banner/Blue_triangle_bg_image.jpg) no-repeat;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    padding: 50px 200px;
+}
+.Firstsec .Firstsec1{
+    color: rgb(238, 238, 29);
+    font-size: 30px;
+}
+.Firstsec p1{
+    color: #f4f4f4;
+    font-size: 20px;
+}
+
+.Secondsec{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: rgb(217, 196, 217);
+}
+.Thirdsec{
+    text-align: center;
+    background: url(/images/Compass/compass-bg.jpg);
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+.cards{
+    padding: 1rem 0;
+    align-items: center;
+    background-color: skyblue;
+    padding: 10px;
+}
+.cards .container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+.cards .container1 .card1 {
+    width: 20%;
+    padding: 0 0.5rem; 
+    border-radius: 25px;
+    margin-left: 350px;
+}
+.cards .container1 .card2{
+    width: 20%;
+    padding: 0 0.5rem; 
+    border-radius: 25px;
+    margin-left: 100px;
+}
+
+.cards .container1 .card1, .cards .container1 .card2{
+    
+    padding-bottom: 1rem ;
+    background-color: white;
+}
+
+.cards .container1 .card1 h3{ 
+    font-size: 1.2rem;
+    padding-bottom: 1rem ;
+    background-color: rgb(127, 52, 127);
+    margin: 0%;
+    border-radius: 25px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+}
+.cards .container1 .card2 h3{ 
+    font-size: 1.2rem;
+    padding-bottom: 1rem ;
+    background-color: orange;
+    margin: 0%;
+    border-radius: 25px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.cards .container1 .card3{
+    background-color: rgb(223, 217, 217);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top:10px ;
+    border-radius: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+.cards .container1 .card4{
+    color: rgb(25, 103, 133);
+    text-align: center;
+
+}
+.cards .container1 .card5{
+    padding-left: 50px;
+}
